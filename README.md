@@ -7,7 +7,7 @@ A lightweight TypeScript wrapper for Squadco payment modal with React 13 support
 ## Installation
 
 ```bash
-npm install @squadco/modal-js
+npm install squadco-modal-js
 
 ```
 
@@ -15,7 +15,7 @@ npm install @squadco/modal-js
 
 ```ts
 
-import { checkout } from "@squadco/modal-js";
+import { checkout } from "squadco-modal-js";
 
 const handlePayment = async () => {
   try {
@@ -45,7 +45,7 @@ handlePayment();
 ```tsx
 
 import React from "react";
-import { useSquadCheckout } from "@squadco/modal-js";
+import { useSquadCheckout } from  "squadco-modal-js";
 
 export default function App() {
   const { pay } = useSquadCheckout();
