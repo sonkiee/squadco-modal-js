@@ -2,8 +2,11 @@
 
 A lightweight TypeScript wrapper for Squadco payment modal with React 13 support, including hooks and event emitter.
 
+---
+
 ## Installation
 
+```bash
 npm install @squadco/modal-js
 
 ## Usage (Direct Checkout)
@@ -60,6 +63,8 @@ export default function App() {
 
   return <button onClick={handlePayment}>Pay Now</button>;
 }
+
+```
 
 ## Example App
 
