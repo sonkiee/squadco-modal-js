@@ -1,4 +1,4 @@
-# @squadco/modal-js
+# squadco-modal-js
 
 A lightweight TypeScript wrapper for Squadco payment modal with React 13 support, including hooks and event emitter.
 

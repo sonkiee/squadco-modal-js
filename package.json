@@ -1,6 +1,6 @@
 {
   "name": "squadco-modal-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Frontend wrapper for Squadco payment modal",
   "repository": {
     "type": "git",
