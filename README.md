@@ -11,9 +11,9 @@ npm install @squadco/modal-js
 
 ```
 
-```bash
-
 ## Usage (Direct Checkout)
+
+```bash
 
 import { checkout } from "@squadco/modal-js";
 
@@ -38,7 +38,11 @@ const handlePayment = async () => {
 
 handlePayment();
 
+```
+
 ## Usage (React Hook)
+
+```bash
 
 import React from "react";
 import { useSquadCheckout } from "@squadco/modal-js";
@@ -91,4 +95,4 @@ The example demonstrates both the direct checkout call and useSquadCheckout hook
 
 ## License
 
-MIT © Kennedy Sunday
+MIT
