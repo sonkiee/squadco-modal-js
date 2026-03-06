@@ -9,6 +9,10 @@ A lightweight TypeScript wrapper for Squadco payment modal with React 13 support
 ```bash
 npm install @squadco/modal-js
 
+```
+
+```bash
+
 ## Usage (Direct Checkout)
 
 import { checkout } from "@squadco/modal-js";
