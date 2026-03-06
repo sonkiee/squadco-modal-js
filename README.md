@@ -13,7 +13,7 @@ npm install @squadco/modal-js
 
 ## Usage (Direct Checkout)
 
-```bash
+```ts
 
 import { checkout } from "@squadco/modal-js";
 
@@ -42,7 +42,7 @@ handlePayment();
 
 ## Usage (React Hook)
 
-```bash
+```tsx
 
 import React from "react";
 import { useSquadCheckout } from "@squadco/modal-js";
@@ -78,10 +78,14 @@ export default function App() {
 
 You can run a full React example included in the repo:
 
+```bash
+
 git clone <https://github.com/sonkiee/squadco-modal-js>
 cd squadco-modal-js/example
 npm install
 npm start
+
+```
 
 The example demonstrates both the direct checkout call and useSquadCheckout hook.
 
