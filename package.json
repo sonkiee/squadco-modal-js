@@ -1,0 +1,42 @@
+{
+  "name": "@squadco/modal-js",
+  "version": "0.0.1",
+  "description": "Frontend wrapper for Squadco payment modal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonkiee/squadco-modal-js.git"
+  },
+  "homepage": "https://github.com/sonkiee/squadco-modal-js#readme",
+  "bugs": {
+    "url": "https://github.com/sonkiee/squadco-modal-js/issues"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch",
+    "prepare": "npm run build",
+    "example": "cd example && npm install && npm start"
+  },
+  "keywords": [
+    "squadco",
+    "payment",
+    "modal",
+    "checkout",
+    "react",
+    "javascript",
+    "typescript",
+    "frontend"
+  ],
+  "author": "Kennedy Sunday <annagu.kennedy@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
